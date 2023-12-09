@@ -26,5 +26,5 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
-          push: true # ERROR: invalid tag "***/DockerHub:latest": invalid reference format
+          push: true 
           tags: sannysmile/${{ github.event.repository.name }}:latest
